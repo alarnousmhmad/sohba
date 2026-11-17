@@ -1,0 +1,842 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f4f0e7">
+  <meta name="description" content="صُحبة — اقرأ وردك اليومي مع مجموعة تشجعك على الاستمرار.">
+  <title>صُحبة | وردك مع رفقة</title>
+  <link rel="preconnect" href="https://api.alquran.cloud" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+:root{--bg:#f4f0e7;--paper:#fffdf8;--paper-2:#f8f5ed;--ink:#23372e;--muted:#738077;--line:#e4dfd3;--green:#315a47;--green-2:#416b55;--sage:#dfe8dc;--gold:#b48c50;--shadow:0 22px 60px rgba(39,55,43,.09);--radius:22px}*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}body{margin:0;background:var(--bg);color:var(--ink);font-family:"IBM Plex Sans Arabic",sans-serif;line-height:1.7;background-image:radial-gradient(rgba(70,91,70,.045) .7px,transparent .7px);background-size:12px 12px}button,input,select{font:inherit}button,a{-webkit-tap-highlight-color:transparent}button{cursor:pointer}a{color:inherit;text-decoration:none}.site-shell{max-width:1240px;margin:auto;padding:0 34px}.topbar{height:88px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid rgba(49,90,71,.12);position:relative;z-index:5}.brand{display:flex;align-items:center;gap:11px}.brand-mark{width:43px;height:43px;display:grid;place-items:center;border:1px solid rgba(49,90,71,.22);border-radius:50%;background:rgba(255,253,248,.7)}.brand-mark svg{width:30px;fill:none;stroke:var(--green);stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}.brand strong{display:block;font-family:Amiri,serif;font-size:25px;line-height:1.1}.brand small{display:block;font-size:10px;letter-spacing:.08em;color:var(--muted);margin-top:3px}.desktop-nav{display:flex;gap:38px;color:#68776c;font-size:14px}.desktop-nav a:hover,.footer-links a:hover,.text-link:hover{color:var(--green)}.header-actions{display:flex;align-items:center;gap:10px}.btn{border:0;border-radius:12px;padding:11px 19px;font-weight:600;font-size:13px;display:inline-flex;align-items:center;justify-content:center;gap:9px;transition:transform .2s,background .2s,border-color .2s;min-height:44px}.btn:hover{transform:translateY(-1px)}.btn-primary{background:var(--green);color:#fff;box-shadow:0 8px 18px rgba(49,90,71,.14)}.btn-primary:hover{background:#254a38}.btn-primary svg,.text-link svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}.btn-quiet{background:transparent;color:var(--green)}.btn-quiet:hover{background:rgba(49,90,71,.07)}.btn-outline{background:transparent;border:1px solid #b8c5b8;color:var(--green)}.btn-outline:hover{background:#edf2eb}.btn-soft{background:#eaf0e8;color:var(--green)}.btn-large{padding:15px 23px;min-height:54px;font-size:14px;border-radius:14px}.full-width{width:100%}.icon-button{width:42px;height:42px;display:grid;place-items:center;background:var(--paper);border:1px solid var(--line);border-radius:12px;color:var(--green)}.icon-button svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}.hero{min-height:600px;display:grid;grid-template-columns:1.05fr .95fr;align-items:center;gap:42px;padding:70px 4.5% 78px}.eyebrow{display:inline-flex;align-items:center;gap:9px;color:#8b754e;font-size:11px;font-weight:700;letter-spacing:.08em}.eyebrow-line{width:27px;height:1px;background:var(--gold)}.hero h1{font-family:Amiri,serif;font-size:clamp(58px,7vw,90px);line-height:1.13;letter-spacing:-.03em;margin:19px 0 17px;font-weight:700}.hero h1 span{color:var(--green-2);position:relative}.hero h1 span:after{content:"";position:absolute;right:4px;bottom:3px;width:94%;height:9px;background:rgba(180,140,80,.19);z-index:-1;border-radius:50%}.hero-lead{max-width:490px;font-size:16px;color:#69766d;line-height:2.05;margin:0}.hero-actions{display:flex;align-items:center;gap:25px;margin-top:30px}.text-link{font-size:13px;color:#52675a;font-weight:600}.text-link span{margin-right:5px}.hero-note{display:flex;align-items:center;gap:9px;color:#879187;font-size:11px;margin-top:34px}.note-dot{width:7px;height:7px;background:#9ba98e;border-radius:50%;box-shadow:0 0 0 4px rgba(155,169,142,.16)}.hero-art{height:440px;position:relative;display:grid;place-items:center}.art-orbit{position:absolute;border:1px solid rgba(49,90,71,.13);border-radius:50%;transform:rotate(-22deg)}.orbit-one{width:390px;height:300px}.orbit-two{width:460px;height:365px;transform:rotate(33deg);border-color:rgba(180,140,80,.17)}.art-card{position:relative;width:300px;background:var(--paper);border:1px solid rgba(49,90,71,.12);border-radius:25px;padding:23px 24px 18px;box-shadow:var(--shadow);z-index:1;transform:rotate(-2deg)}.art-card-top,.art-card-foot{display:flex;align-items:center;justify-content:space-between;font-size:12px;color:#637267}.live-pill{display:flex;align-items:center;gap:6px;color:#4e785a;font-size:10px;background:#edf4e9;padding:4px 9px;border-radius:20px}.live-pill i{width:6px;height:6px;background:#72a36c;border-radius:50%}.art-progress{display:flex;justify-content:center;padding:18px 0 13px}.progress-ring{width:145px;height:145px;position:relative;display:grid;place-items:center}.progress-ring svg{position:absolute;inset:0;width:100%;height:100%;transform:rotate(-90deg)}.progress-ring circle{fill:none;stroke-width:7}.ring-bg{stroke:#edf0e8}.ring-value{stroke:#64876b;stroke-dasharray:154 308;stroke-linecap:round}.progress-ring>div{display:flex;flex-direction:column;align-items:center}.progress-ring strong{font-size:25px;color:var(--green)}.progress-ring small{font-size:10px;color:#89938a}.art-members{display:flex;justify-content:center;padding:3px 0 16px}.avatar{width:31px;height:31px;display:grid;place-items:center;border-radius:50%;background:#dce7d9;border:2px solid var(--paper);margin-left:-5px;color:#385c45;font-size:11px}.avatar:nth-child(2){background:#eee3d0;color:#846c43}.avatar:nth-child(3){background:#e5dfed;color:#6b5b83}.avatar:nth-child(4){background:#d9e8e9;color:#4d7372}.avatar:nth-child(5){background:#f0ddd5;color:#986b5b}.muted-avatar{background:#f2f0e8;color:#8a8e83}.art-card-foot{border-top:1px solid #eeece5;padding-top:12px}.art-card-foot strong{color:var(--green);font-size:13px}.floating-note{position:absolute;right:-4px;bottom:51px;display:flex;align-items:center;gap:10px;padding:13px 16px;background:var(--paper);border:1px solid var(--line);border-radius:14px;box-shadow:0 12px 30px rgba(39,55,43,.08);z-index:2}.floating-icon{width:34px;height:34px;background:#eaf0e8;border-radius:10px;display:grid;place-items:center}.floating-icon svg{width:19px;fill:none;stroke:var(--green);stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}.floating-note b,.floating-note small{display:block}.floating-note b{font-size:11px}.floating-note small{font-size:9px;color:#879187}.art-seal{position:absolute;top:36px;left:0;width:68px;height:68px;border:1px solid rgba(180,140,80,.55);border-radius:50%;display:grid;place-items:center;text-align:center;color:#987b4c;font-family:Amiri,serif;font-size:15px;line-height:1.25;transform:rotate(-12deg)}.join-section,.how-section{padding:76px 4.5%;border-top:1px solid rgba(49,90,71,.1)}.section-heading{text-align:center;margin-bottom:30px}.section-heading h2,.dashboard-head h2{font-family:Amiri,serif;font-size:39px;line-height:1.25;margin:8px 0;color:var(--ink)}.section-heading p,.dashboard-head p{font-size:13px;color:#7b867c;margin:0}.auth-card{max-width:760px;margin:auto;background:var(--paper);border:1px solid var(--line);border-radius:23px;padding:28px;box-shadow:0 15px 45px rgba(40,55,42,.055)}.auth-tabs{display:flex;gap:6px;padding:5px;background:#f1efe7;border-radius:13px;margin-bottom:24px}.auth-tab{flex:1;border:0;background:transparent;border-radius:10px;padding:10px;color:#7a857a;font-size:12px;font-weight:600}.auth-tab.active{background:#fffdf8;color:var(--green);box-shadow:0 2px 8px rgba(40,55,42,.07)}.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:17px 18px}.field{display:flex;flex-direction:column;gap:7px}.field label{font-size:12px;font-weight:600;color:#45594a}.field input,.field select,.private-actions input{width:100%;height:47px;border:1px solid #e2e0d6;border-radius:11px;background:#fffefa;padding:0 13px;color:var(--ink);outline:none;font-size:13px;transition:border-color .2s,box-shadow .2s}.field input:focus,.field select:focus,.private-actions input:focus{border-color:#83a18a;box-shadow:0 0 0 3px rgba(87,128,97,.1)}.field small{font-size:10px;color:#90998e}.choice-row{display:flex;gap:9px}.choice{flex:1;position:relative}.choice input{position:absolute;opacity:0;pointer-events:none}.choice span{height:47px;border:1px solid #e2e0d6;background:#fffefa;border-radius:11px;display:grid;place-items:center;color:#667267;font-size:12px;cursor:pointer}.choice input:checked+span{border-color:#72947a;background:#eef3ec;color:var(--green);font-weight:700}.full-span{grid-column:1/-1}.form-footer{grid-column:1/-1;margin-top:6px}.fine-print{text-align:center;color:#8a9388;font-size:10px;margin:12px 0 0}.fine-print a{color:var(--green);text-decoration:underline}.message{padding:12px 15px;border-radius:11px;background:#eef3eb;color:#3e6548;font-size:12px;margin-top:15px}.message.error{background:#f8eae6;color:#9b4d3d}.hidden{display:none!important}.dashboard-section{padding:66px 4.5%;border-top:1px solid rgba(49,90,71,.1)}.dashboard-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:25px}.dashboard-head h2{font-size:35px}.dashboard-head h2 span{color:var(--green)}.dashboard-grid{display:grid;grid-template-columns:1.25fr .75fr;gap:18px}.panel{background:var(--paper);border:1px solid var(--line);border-radius:20px;padding:23px;box-shadow:0 10px 32px rgba(40,55,42,.04)}.panel-top{display:flex;align-items:center;justify-content:space-between}.panel h3{font-family:Amiri,serif;font-size:25px;margin:5px 0;color:var(--ink)}.status-pill{background:#eef3e9;color:#5c795f;padding:5px 11px;border-radius:20px;font-size:10px}.group-meta{display:flex;align-items:center;gap:17px;color:#899287;font-size:11px;padding:8px 0 18px;border-bottom:1px solid #efede6}.inline-action{border:0;background:transparent;color:var(--green);font-size:11px;text-decoration:underline}.member-list{display:grid;grid-template-columns:repeat(2,1fr);gap:9px;padding:17px 0}.member-row{display:flex;align-items:center;gap:10px;padding:9px 10px;border:1px solid #efede6;border-radius:12px}.member-avatar{width:32px;height:32px;border-radius:50%;display:grid;place-items:center;background:#e8eee4;color:var(--green);font-size:12px;font-weight:700;flex-shrink:0}.member-info{min-width:0;flex:1}.member-info strong,.member-info small{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.member-info strong{font-size:11px}.member-info small{font-size:9px;color:#8b948a}.done-check{width:19px;height:19px;border-radius:50%;display:grid;place-items:center;background:#e6eee4;color:#4e7957;font-size:11px}.not-done{background:#f2f0e9;color:#9aa095}.group-progress{padding-top:12px}.progress-label{display:flex;justify-content:space-between;font-size:11px;color:#798579;margin-bottom:9px}.progress-label strong{color:var(--green)}.progress-track{height:7px;border-radius:20px;background:#eceee7;overflow:hidden}.progress-track span{display:block;height:100%;width:0;background:#719277;border-radius:20px;transition:width .3s}.reading-panel{background:#e9efe6;display:flex;flex-direction:column;align-items:flex-start}.reading-panel h3{font-size:28px;margin-top:12px}.reading-panel p{font-size:11px;color:#718071;margin:0}.reading-number{margin:21px 0 18px;display:flex;align-items:baseline;gap:10px}.reading-number strong{font-family:Amiri,serif;font-size:58px;line-height:1;color:var(--green)}.reading-number span{font-size:11px;color:#7c897c}.reading-panel .btn{margin-top:8px}.small-note{font-size:10px!important;margin-top:13px!important;color:#839084!important}.private-panel{margin-top:18px;display:flex;align-items:center;justify-content:space-between;gap:18px}.private-panel h3{margin:4px 0}.private-panel p{font-size:11px;color:#7b867c;margin:0}.private-actions{display:flex;gap:8px;min-width:310px}.private-actions input{max-width:180px}.reader-section{padding:35px 4.5% 75px;border-top:1px solid rgba(49,90,71,.1)}.reader-toolbar{display:flex;align-items:center;justify-content:space-between;margin-bottom:20px}.reader-toolbar>div:nth-child(2){display:flex;flex-direction:column;align-items:center}.reader-toolbar strong{font-family:Amiri,serif;font-size:22px}.reader-nav{display:flex;gap:7px}.mushaf-page{max-width:760px;min-height:550px;margin:auto;background:#fffdf5;border:1px solid #e5dcc7;border-radius:8px;box-shadow:0 18px 45px rgba(66,55,36,.1);padding:25px 34px 20px;position:relative}.mushaf-page:before{content:"";position:absolute;inset:9px;border:1px solid rgba(180,140,80,.3);pointer-events:none}.mushaf-topline,.mushaf-bottomline{position:relative;text-align:center;color:#8b744e;font-family:Amiri,serif;font-size:13px}.mushaf-topline{display:flex;justify-content:space-between;border-bottom:1px solid #e9dfcb;padding-bottom:10px}.quran-text{position:relative;font-family:Amiri,serif;font-size:26px;line-height:2.2;text-align:justify;padding:26px 12px;color:#27392e}.quran-ayah{display:inline}.ayah-number{font-family:"IBM Plex Sans Arabic",sans-serif;font-size:12px;color:#997b4b;white-space:nowrap;padding:0 4px}.mushaf-bottomline{border-top:1px solid #e9dfcb;padding-top:9px}.reader-bottom{text-align:center;margin:20px auto 0}.reader-bottom p{font-size:12px;color:#798579}.how-section{padding-top:70px}.steps-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:13px}.step-card{background:rgba(255,253,248,.68);border:1px solid rgba(49,90,71,.1);border-radius:17px;padding:20px;min-height:195px;position:relative}.step-index{position:absolute;left:17px;top:13px;color:#b9aa8c;font-size:10px;letter-spacing:.1em}.step-icon{width:43px;height:43px;background:#e8eee5;border-radius:13px;display:grid;place-items:center;margin-bottom:15px}.step-icon svg{width:21px;height:21px;fill:none;stroke:var(--green);stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}.step-card h3{font-family:Amiri,serif;font-size:21px;margin:0 0 4px}.step-card p{font-size:11px;color:#818b81;margin:0;line-height:1.9}.quote-section{margin:30px 4.5% 75px;background:#e8ede3;border-radius:22px;text-align:center;padding:39px 20px;position:relative}.quote-mark{font-family:Amiri,serif;font-size:60px;line-height:.8;color:#a6b39e}.quote-section p{font-family:Amiri,serif;font-size:27px;margin:7px 0;color:var(--green)}.quote-section span{font-size:11px;color:#7a897b}.footer{min-height:115px;border-top:1px solid rgba(49,90,71,.13);display:flex;align-items:center;justify-content:space-between;gap:20px;padding:20px 4.5%;flex-wrap:wrap}.footer-brand .brand-mark{width:36px;height:36px}.footer-brand .brand-mark svg{width:25px}.footer-brand strong{font-size:21px}.footer-links{display:flex;gap:22px;color:#7a867c;font-size:11px}.copyright{font-size:10px;color:#9aa197}.modal-backdrop{position:fixed;inset:0;background:rgba(22,34,27,.48);z-index:20;display:grid;place-items:center;padding:18px}.modal-card{width:min(620px,100%);max-height:85vh;overflow:auto;background:var(--paper);border-radius:20px;padding:28px;position:relative;box-shadow:0 25px 80px rgba(0,0,0,.18)}.modal-card h2{font-family:Amiri,serif;font-size:30px;margin:0 0 14px}.modal-close{position:absolute;left:16px;top:13px;border:0;background:#f0eee7;width:34px;height:34px;border-radius:50%;font-size:23px;color:#647365}.legal-content{font-size:12px;color:#68766c;line-height:2}.legal-content h3{font-family:Amiri,serif;font-size:19px;color:var(--ink);margin:16px 0 3px}.toast{position:fixed;bottom:20px;left:50%;transform:translate(-50%,20px);opacity:0;pointer-events:none;background:#263e31;color:white;border-radius:12px;padding:11px 18px;font-size:12px;z-index:30;transition:.25s;max-width:calc(100% - 30px);text-align:center}.toast.show{opacity:1;transform:translate(-50%,0)}.empty-state{grid-column:1/-1;text-align:center;color:#929b91;padding:24px 10px;font-size:12px}.reader-section .message{max-width:760px;margin:15px auto 0}
+@media(max-width:900px){.site-shell{padding:0 22px}.hero{gap:15px;padding-inline:2%;min-height:540px}.hero-art{transform:scale(.9)}.hero h1{font-size:72px}.dashboard-grid{grid-template-columns:1fr}.steps-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:650px){.site-shell{padding:0 15px}.topbar{height:72px}.brand-mark{width:38px;height:38px}.brand strong{font-size:22px}.desktop-nav{display:none}.header-actions{gap:4px}.header-actions .btn{padding:8px 11px;font-size:11px;min-height:38px}.hero{display:flex;flex-direction:column;align-items:stretch;padding:52px 3% 55px;gap:4px}.hero-copy{position:relative;z-index:2}.hero h1{font-size:65px;margin-top:15px}.hero-lead{font-size:14px;line-height:1.9}.hero-actions{gap:14px;flex-wrap:wrap;margin-top:22px}.hero-art{height:345px;transform:scale(.8);transform-origin:top center;margin-bottom:-55px}.art-card{width:290px}.floating-note{right:-20px;bottom:36px}.art-seal{left:-20px;top:15px}.join-section,.how-section{padding:55px 1%}.section-heading h2{font-size:33px}.auth-card{padding:18px 14px;border-radius:17px}.form-grid{grid-template-columns:1fr;gap:13px}.full-span,.form-footer{grid-column:auto}.dashboard-section{padding:45px 1%}.dashboard-head{align-items:flex-start;gap:10px;flex-direction:column}.dashboard-head h2{font-size:31px}.dashboard-head .btn{align-self:stretch}.panel{padding:17px}.member-list{grid-template-columns:1fr}.group-meta{gap:9px;flex-wrap:wrap}.private-panel{flex-direction:column;align-items:stretch}.private-actions{min-width:0}.private-actions input{max-width:none;min-width:0}.reader-section{padding:25px 0 55px}.reader-toolbar{gap:8px}.reader-toolbar .btn{padding:8px 10px;font-size:10px}.reader-toolbar strong{font-size:17px}.mushaf-page{padding:20px 16px 15px;min-height:500px}.quran-text{font-size:22px;line-height:2.05;padding:20px 5px}.steps-grid{grid-template-columns:1fr 1fr;gap:9px}.step-card{padding:15px;min-height:185px}.step-card h3{font-size:18px}.quote-section{margin:20px 0 50px}.footer{padding:22px 2%;justify-content:center;text-align:center}.footer-links{width:100%;justify-content:center}.copyright{width:100%}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
+
+  </style>
+  <script type="module">
+import { initializeApp } from 'https://www.gstatic.com/firebasejs/11.6.0/firebase-app.js';
+import {
+  getAuth,
+  createUserWithEmailAndPassword,
+  signInWithEmailAndPassword,
+  signOut,
+  onAuthStateChanged,
+  sendPasswordResetEmail,
+  deleteUser
+} from 'https://www.gstatic.com/firebasejs/11.6.0/firebase-auth.js';
+import {
+  getFirestore,
+  doc,
+  getDoc,
+  getDocs,
+  collection,
+  query,
+  where,
+  limit,
+  runTransaction,
+  writeBatch,
+  updateDoc,
+  onSnapshot,
+  serverTimestamp
+} from 'https://www.gstatic.com/firebasejs/11.6.0/firebase-firestore.js';
+
+const firebaseConfig = {
+  apiKey: 'AIzaSyCO6V_5-qSsl-6LQDmRcBAggu8AFVNUqwg',
+  authDomain: 'sohba-platform-2026.firebaseapp.com',
+  projectId: 'sohba-platform-2026',
+  storageBucket: 'sohba-platform-2026.firebasestorage.app',
+  messagingSenderId: '577838488654',
+  appId: '1:577838488654:web:2be0f8fe471da8b84bb71f'
+};
+
+const app = initializeApp(firebaseConfig);
+const auth = getAuth(app);
+const db = getFirestore(app);
+const $ = (id) => document.getElementById(id);
+const sections = ['joinSection', 'dashboardSection', 'readerSection'];
+const state = {
+  user: null,
+  profile: null,
+  group: null,
+  members: [],
+  groupId: null,
+  readerPage: 1,
+  unsubscribers: [],
+  toastTimer: null,
+  authListenerReady: false,
+  registrationInProgress: false,
+  quranCache: new Map(),
+  quranRequestId: 0
+};
+
+const todayKey = () => {
+  const now = new Date();
+  const y = now.getFullYear();
+  const m = String(now.getMonth() + 1).padStart(2, '0');
+  const d = String(now.getDate()).padStart(2, '0');
+  return `${y}-${m}-${d}`;
+};
+const cleanUsername = (value) => value.trim().toLowerCase();
+
+const randomCode = () => {
+  const chars = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789';
+  const bytes = new Uint8Array(10);
+  crypto.getRandomValues(bytes);
+  return Array.from(bytes, (b) => chars[b % chars.length]).join('');
+};
+
+function toast(message) {
+  const el = $('toast');
+  el.textContent = message;
+  el.classList.add('show');
+  clearTimeout(state.toastTimer);
+  state.toastTimer = setTimeout(() => el.classList.remove('show'), 3200);
+}
+
+function showMessage(el, message, error = false) {
+  if (!el) return;
+  el.textContent = message;
+  el.classList.remove('hidden', 'error');
+  if (error) el.classList.add('error');
+}
+
+function clearMessage(el) {
+  if (!el) return;
+  el.textContent = '';
+  el.classList.add('hidden');
+  el.classList.remove('error');
+}
+
+function setButtonLoading(button, loading, label) {
+  if (!button) return;
+  if (loading) {
+    button.dataset.originalLabel = button.textContent.trim();
+    button.disabled = true;
+    button.textContent = label || 'جارٍ التنفيذ...';
+  } else {
+    button.disabled = false;
+    if (button.dataset.originalLabel) button.textContent = button.dataset.originalLabel;
+    delete button.dataset.originalLabel;
+  }
+}
+
+function translateError(error) {
+  const code = error?.code || '';
+  const map = {
+    'auth/email-already-in-use': 'هذا البريد مسجّل مسبقاً. سجّل الدخول بدلاً من إنشاء حساب جديد.',
+    'auth/invalid-email': 'صيغة البريد الإلكتروني غير صحيحة.',
+    'auth/weak-password': 'كلمة المرور ضعيفة. استخدم ثمانية أحرف على الأقل.',
+    'auth/invalid-credential': 'البريد الإلكتروني أو كلمة المرور غير صحيحة.',
+    'auth/user-not-found': 'لا يوجد حساب بهذا البريد الإلكتروني.',
+    'auth/wrong-password': 'كلمة المرور غير صحيحة.',
+    'auth/too-many-requests': 'محاولات كثيرة. انتظر قليلاً ثم حاول مجدداً.',
+    'auth/network-request-failed': 'تعذر الاتصال. تحقق من الإنترنت ثم أعد المحاولة.',
+    'permission-denied': 'رفضت قواعد الأمان هذه العملية. تحقق من نشر قواعد Firestore الخاصة بالمشروع.',
+    'unavailable': 'خدمة البيانات غير متاحة مؤقتاً. حاول بعد قليل.'
+  };
+  if (error?.message?.includes('USERNAME_TAKEN')) return 'اسم المستخدم مستخدم بالفعل. اختر اسماً آخر.';
+  if (error?.message?.includes('GROUP_FULL')) return 'اكتملت الرفقة قبل انضمامك. سنبحث عن رفقة أخرى.';
+  return map[code] || error?.message || 'حدث خطأ غير متوقع. حاول مرة أخرى.';
+}
+
+function showAuthTab(tab) {
+  document.querySelectorAll('[data-auth-tab]').forEach((button) => {
+    button.classList.toggle('active', button.dataset.authTab === tab);
+  });
+  $('registerForm').classList.toggle('hidden', tab !== 'register');
+  $('loginForm').classList.toggle('hidden', tab !== 'login');
+  clearMessage($('authMessage'));
+}
+
+function scrollToAuth(tab = 'register') {
+  showAuthTab(tab);
+  $('joinSection').scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function showMainSection(sectionId) {
+  sections.forEach((id) => $(id).classList.toggle('hidden', id !== sectionId));
+}
+
+function cleanupGroupListeners() {
+  state.unsubscribers.forEach((unsubscribe) => {
+    try { unsubscribe(); } catch { /* no-op */ }
+  });
+  state.unsubscribers = [];
+}
+
+function makeMemberRecord(profile, role, inviteCode = null) {
+  const record = {
+    uid: state.user.uid,
+    displayName: profile.name,
+    role,
+    gender: profile.gender,
+    dailyPages: Number(profile.dailyPages),
+    startPage: Number(profile.startPage),
+    lastPageRead: Math.max(0, Number(profile.startPage) - 1),
+    completedDate: '',
+    joinedAt: serverTimestamp(),
+    updatedAt: serverTimestamp(),
+    lastCompletedAt: null
+  };
+  if (inviteCode) record.inviteCode = inviteCode;
+  return record;
+}
+
+async function createGroup(profile, isPrivate = false) {
+  const groupRef = doc(collection(db, 'groups'));
+  const inviteCode = isPrivate ? randomCode() : null;
+  const groupName = isPrivate ? `رفقة ${profile.name}` : `رفقة الورد اليومي`;
+  const groupData = {
+    name: groupName,
+    isPrivate,
+    gender: profile.gender,
+    dailyPages: Number(profile.dailyPages),
+    startPage: Number(profile.startPage),
+    status: 'open',
+    memberCount: 1,
+    createdBy: state.user.uid,
+    createdAt: serverTimestamp(),
+    updatedAt: serverTimestamp()
+  };
+  const batch = writeBatch(db);
+  batch.set(groupRef, groupData);
+  batch.set(doc(db, 'groups', groupRef.id, 'members', state.user.uid), makeMemberRecord(profile, 'owner', inviteCode));
+  if (inviteCode) {
+    batch.set(doc(db, 'invites', inviteCode), {
+      groupId: groupRef.id,
+      createdBy: state.user.uid,
+      createdAt: serverTimestamp()
+    });
+  }
+  batch.update(doc(db, 'users', state.user.uid), {
+    activeGroupId: groupRef.id,
+    activeInviteCode: inviteCode,
+    updatedAt: serverTimestamp()
+  });
+  await batch.commit();
+  state.profile = { ...profile, activeGroupId: groupRef.id, activeInviteCode: inviteCode };
+  state.groupId = groupRef.id;
+  return groupRef.id;
+}
+
+async function joinPublicGroup(groupId, profile) {
+  const groupRef = doc(db, 'groups', groupId);
+  const memberRef = doc(db, 'groups', groupId, 'members', state.user.uid);
+  const userRef = doc(db, 'users', state.user.uid);
+  await runTransaction(db, async (transaction) => {
+    const groupSnap = await transaction.get(groupRef);
+    const memberSnap = await transaction.get(memberRef);
+    if (!groupSnap.exists()) throw new Error('GROUP_FULL');
+    const group = groupSnap.data();
+    if (memberSnap.exists() || group.isPrivate || group.status !== 'open' || group.memberCount >= 7) throw new Error('GROUP_FULL');
+    if (group.gender !== profile.gender || Number(group.dailyPages) !== Number(profile.dailyPages) || Number(group.startPage) !== Number(profile.startPage)) throw new Error('GROUP_FULL');
+    transaction.set(memberRef, makeMemberRecord(profile, 'member'));
+    transaction.update(groupRef, {
+      memberCount: group.memberCount + 1,
+      status: group.memberCount + 1 === 7 ? 'full' : 'open',
+      updatedAt: serverTimestamp()
+    });
+    transaction.update(userRef, {
+      activeGroupId: groupId,
+      activeInviteCode: null,
+      updatedAt: serverTimestamp()
+    });
+  });
+  state.profile = { ...profile, activeGroupId: groupId, activeInviteCode: null };
+  state.groupId = groupId;
+  return groupId;
+}
+
+async function findOrCreatePublicGroup(profile) {
+  const groupsQuery = query(
+    collection(db, 'groups'),
+    where('isPrivate', '==', false),
+    where('status', '==', 'open'),
+    limit(12)
+  );
+
+  // البحث يتم بعد إظهار لوحة الحساب، لذلك لا يؤخر اكتمال التسجيل.
+  let result;
+  try {
+    result = await getDocs(groupsQuery);
+  } catch (error) {
+    return createGroup(profile, false);
+  }
+
+  const candidates = result.docs
+    .map((snapshot) => ({ id: snapshot.id, ...snapshot.data() }))
+    .filter((group) => group.memberCount < 7
+      && group.gender === profile.gender
+      && Number(group.dailyPages) === Number(profile.dailyPages)
+      && Number(group.startPage) === Number(profile.startPage))
+    .sort((a, b) => a.memberCount - b.memberCount);
+
+  for (const candidate of candidates) {
+    try {
+      await joinPublicGroup(candidate.id, profile);
+      return candidate.id;
+    } catch (error) {
+      if (!String(error?.message || '').includes('GROUP_FULL')) {
+        return createGroup(profile, false);
+      }
+    }
+  }
+  return createGroup(profile, false);
+}
+
+async function loadProfile(user) {
+  const snapshot = await getDoc(doc(db, 'users', user.uid));
+  if (!snapshot.exists()) return null;
+  return snapshot.data();
+}
+
+function watchActiveGroup(groupId) {
+  cleanupGroupListeners();
+  state.groupId = groupId;
+  state.group = null;
+  state.members = [];
+  showMainSection('dashboardSection');
+  const groupRef = doc(db, 'groups', groupId);
+  const membersRef = collection(db, 'groups', groupId, 'members');
+  state.unsubscribers.push(onSnapshot(groupRef, (snapshot) => {
+    if (!snapshot.exists()) {
+      showMessage($('dashboardMessage'), 'لم نتمكن من العثور على الرفقة المرتبطة بحسابك.', true);
+      return;
+    }
+    state.group = { id: snapshot.id, ...snapshot.data() };
+    renderDashboard();
+  }, (error) => showMessage($('dashboardMessage'), translateError(error), true)));
+  state.unsubscribers.push(onSnapshot(membersRef, (snapshot) => {
+    state.members = snapshot.docs.map((item) => ({ id: item.id, ...item.data() }));
+    renderDashboard();
+  }, (error) => showMessage($('dashboardMessage'), translateError(error), true)));
+}
+
+function renderDashboard() {
+  if (!state.profile || !state.group) return;
+  const group = state.group;
+  $('welcomeName').textContent = state.profile.name || 'قارئ القرآن';
+  $('groupName').textContent = group.name || 'رفقة الورد';
+  $('groupStatus').textContent = group.status === 'full' ? 'اكتملت الرفقة' : 'رفقة مفتوحة';
+  $('groupAmount').textContent = `${group.dailyPages} ${group.dailyPages === 1 ? 'وجه يومياً' : 'أوجه يومياً'}`;
+  $('groupMemberCount').textContent = `${group.memberCount} من 7 أعضاء`;
+  $('readingAmountTitle').textContent = `${group.dailyPages} ${group.dailyPages === 1 ? 'وجه' : 'أوجه'} من القرآن`;
+  const myMember = state.members.find((member) => member.uid === state.user.uid);
+  const completed = myMember?.completedDate === todayKey();
+  const startPage = Number(myMember?.startPage || group.startPage || 1);
+  const nextPage = Math.min(604, Math.max(startPage, Number(myMember?.lastPageRead || startPage - 1) + 1));
+  state.readerPage = nextPage;
+  $('readingPage').textContent = String(nextPage);
+  $('personalProgress').textContent = `آخر صفحة مسجلة: ${myMember?.lastPageRead || 0}`;
+  $('readingStatus').textContent = completed ? 'أتممت ورد اليوم. تقبّل الله منك.' : 'ابدأ القراءة من حيث وصلت.';
+  $('markTodayDone').disabled = completed;
+  $('markTodayDone').textContent = completed ? 'تم تسجيل إنجاز اليوم' : 'أتممت ورد اليوم';
+  const doneCount = state.members.filter((member) => member.completedDate === todayKey()).length;
+  $('groupDoneCount').textContent = `${doneCount} / ${state.members.length || group.memberCount}`;
+  $('groupProgressBar').style.width = `${Math.min(100, (doneCount / 7) * 100)}%`;
+  $('memberList').innerHTML = '';
+  if (!state.members.length) {
+    $('memberList').innerHTML = '<div class="empty-state">لم ينضم أعضاء آخرون بعد.</div>';
+  } else {
+    state.members
+      .sort((a, b) => (a.role === 'owner' ? -1 : b.role === 'owner' ? 1 : a.displayName.localeCompare(b.displayName, 'ar')))
+      .forEach((member) => {
+        const row = document.createElement('div');
+        row.className = 'member-row';
+        const avatar = document.createElement('span');
+        avatar.className = 'member-avatar';
+        avatar.textContent = (member.displayName || 'ق').trim().slice(0, 1);
+        const info = document.createElement('span');
+        info.className = 'member-info';
+        const name = document.createElement('strong');
+        name.textContent = `${member.displayName || 'قارئ'}${member.uid === state.user.uid ? ' (أنت)' : ''}`;
+        const subtitle = document.createElement('small');
+        subtitle.textContent = member.role === 'owner' ? 'منشئ الرفقة' : 'عضو في الرفقة';
+        info.append(name, subtitle);
+        const check = document.createElement('span');
+        const isDone = member.completedDate === todayKey();
+        check.className = `done-check${isDone ? '' : ' not-done'}`;
+        check.textContent = isDone ? '✓' : '·';
+        check.title = isDone ? 'أتمّ ورد اليوم' : 'لم يسجل إنجاز اليوم';
+        row.append(avatar, info, check);
+        $('memberList').append(row);
+      });
+  }
+  $('copyInvite').classList.toggle('hidden', !state.profile.activeInviteCode);
+  $('privatePanel').classList.remove('hidden');
+  clearMessage($('dashboardMessage'));
+}
+
+async function completeDailyReading() {
+  if (!state.user || !state.groupId) return;
+  const member = state.members.find((item) => item.uid === state.user.uid);
+  if (!member) throw new Error('لم يتم العثور على عضويتك في الرفقة.');
+  if (member.completedDate === todayKey()) {
+    toast('تم تسجيل إنجاز اليوم مسبقاً.');
+    return;
+  }
+  const lastPage = Math.min(604, Math.max(Number(member.lastPageRead || 0), state.readerPage + Number(member.dailyPages || state.group.dailyPages) - 1));
+  await updateDoc(doc(db, 'groups', state.groupId, 'members', state.user.uid), {
+    lastPageRead: lastPage,
+    completedDate: todayKey(),
+    lastCompletedAt: serverTimestamp(),
+    updatedAt: serverTimestamp()
+  });
+  toast('تم تسجيل إنجازك ومزامنته مع الرفقة.');
+}
+
+async function registerAccount(event) {
+  event.preventDefault();
+  const form = $('registerForm');
+  const button = $('registerSubmit');
+  const message = $('authMessage');
+  clearMessage(message);
+  const name = $('displayName').value.trim();
+  const username = cleanUsername($('username').value);
+  const email = $('email').value.trim();
+  const password = $('password').value;
+  const gender = form.querySelector('input[name="gender"]:checked')?.value || 'men';
+  const dailyPages = Number($('dailyPages').value);
+  const startPage = Number($('startPage').value);
+  if (!/^[a-z0-9_]{3,20}$/.test(username)) {
+    showMessage(message, 'اسم المستخدم يجب أن يتكون من 3 إلى 20 حرفاً إنجليزياً أو رقماً أو شرطة سفلية.', true);
+    return;
+  }
+  if (name.length < 2 || name.length > 48 || password.length < 8 || startPage < 1 || startPage > 604) {
+    showMessage(message, 'راجع الاسم وكلمة المرور ورقم صفحة البداية.', true);
+    return;
+  }
+  setButtonLoading(button, true, 'جارٍ إنشاء الحساب...');
+  state.registrationInProgress = true;
+  let credential = null;
+  let profileCreated = false;
+  try {
+    credential = await createUserWithEmailAndPassword(auth, email, password);
+    const profile = { name, username, email, gender, dailyPages, startPage };
+    await runTransaction(db, async (transaction) => {
+      const usernameRef = doc(db, 'usernames', username);
+      const usernameSnap = await transaction.get(usernameRef);
+      if (usernameSnap.exists()) throw new Error('USERNAME_TAKEN');
+      transaction.set(usernameRef, { uid: credential.user.uid, createdAt: serverTimestamp() });
+      transaction.set(doc(db, 'users', credential.user.uid), {
+        ...profile,
+        activeGroupId: null,
+        activeInviteCode: null,
+        createdAt: serverTimestamp(),
+        updatedAt: serverTimestamp()
+      });
+    });
+    profileCreated = true;
+    state.registrationInProgress = false;
+    state.user = credential.user;
+    state.profile = profile;
+    $('welcomeName').textContent = profile.name;
+    $('memberList').innerHTML = '<div class="empty-state">تم إنشاء الحساب. جارٍ تجهيز رفقة القراءة في الخلفية...</div>';
+    $('privatePanel').classList.remove('hidden');
+    showMainSection('dashboardSection');
+    $('dashboardSection').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    toast('تم إنشاء الحساب بنجاح. جارٍ تجهيز رفقة القراءة...');
+
+    // إعداد الرفقة لا يحجز المستخدم داخل نموذج التسجيل؛ يكتمل في الخلفية.
+    findOrCreatePublicGroup(profile).then((groupId) => {
+      if (!groupId || state.user?.uid !== credential.user.uid) return;
+      watchActiveGroup(groupId);
+      toast('أصبحت رفقة القراءة جاهزة.');
+    }).catch((error) => {
+      if (state.user?.uid !== credential.user.uid) return;
+      $('memberList').innerHTML = '<div class="empty-state">حسابك جاهز. تعذر تجهيز رفقة تلقائياً؛ يمكنك المحاولة من لوحة الحساب.</div>';
+      showMessage($('dashboardMessage'), `تم إنشاء الحساب، لكن تعذر إعداد الرفقة تلقائياً: ${translateError(error)}`, true);
+    });
+  } catch (error) {
+    state.registrationInProgress = false;
+    if (credential?.user && !profileCreated) {
+      try { await deleteUser(credential.user); } catch { /* cleanup may require a fresh sign-in */ }
+    }
+    showMessage(message, translateError(error), true);
+  } finally {
+    setButtonLoading(button, false);
+  }
+}
+
+async function loginAccount(event) {
+  event.preventDefault();
+  const button = $('loginSubmit');
+  const message = $('authMessage');
+  clearMessage(message);
+  setButtonLoading(button, true, 'جارٍ تسجيل الدخول...');
+  try {
+    await signInWithEmailAndPassword(auth, $('loginEmail').value.trim(), $('loginPassword').value);
+    toast('تم تسجيل الدخول. جارٍ تحميل بياناتك...');
+  } catch (error) {
+    showMessage(message, translateError(error), true);
+  } finally {
+    setButtonLoading(button, false);
+  }
+}
+
+async function joinPrivateGroup() {
+  if (!state.user || !state.profile) return;
+  const code = $('inviteCodeInput').value.trim().toUpperCase();
+  if (!/^[A-HJ-NP-Z2-9]{10}$/.test(code)) {
+    showMessage($('dashboardMessage'), 'رمز الدعوة غير مكتمل أو يحتوي على أحرف غير صحيحة.', true);
+    return;
+  }
+  try {
+    const inviteSnap = await getDoc(doc(db, 'invites', code));
+    if (!inviteSnap.exists()) throw new Error('رمز الدعوة غير صحيح أو لم يعد متاحاً.');
+    const groupId = inviteSnap.data().groupId;
+    const groupRef = doc(db, 'groups', groupId);
+    const memberRef = doc(db, 'groups', groupId, 'members', state.user.uid);
+    const userRef = doc(db, 'users', state.user.uid);
+    await runTransaction(db, async (transaction) => {
+      const groupSnap = await transaction.get(groupRef);
+      const memberSnap = await transaction.get(memberRef);
+      if (!groupSnap.exists()) throw new Error('الرفقة غير موجودة.');
+      const group = groupSnap.data();
+      if (!group.isPrivate || group.status !== 'open' || group.memberCount >= 7 || memberSnap.exists()) throw new Error('الرفقة مكتملة أو لا تقبل أعضاء جدد.');
+      if (group.gender !== state.profile.gender || Number(group.dailyPages) !== Number(state.profile.dailyPages) || Number(group.startPage) !== Number(state.profile.startPage)) throw new Error('هذه الدعوة مخصصة لإعدادات قراءة مختلفة عن إعدادات حسابك.');
+      transaction.set(memberRef, makeMemberRecord(state.profile, 'member', code));
+      transaction.update(groupRef, {
+        memberCount: group.memberCount + 1,
+        status: group.memberCount + 1 === 7 ? 'full' : 'open',
+        updatedAt: serverTimestamp()
+      });
+      transaction.update(userRef, { activeGroupId: groupId, activeInviteCode: null, updatedAt: serverTimestamp() });
+    });
+    state.profile = { ...state.profile, activeGroupId: groupId, activeInviteCode: null };
+    $('inviteCodeInput').value = '';
+    watchActiveGroup(groupId);
+    toast('انضممت إلى الرفقة الخاصة.');
+  } catch (error) {
+    showMessage($('dashboardMessage'), translateError(error), true);
+  }
+}
+
+async function fetchQuranPageData(page) {
+  if (state.quranCache.has(page)) return state.quranCache.get(page);
+
+  const cacheKey = `sohba-quran-page-${page}`;
+  try {
+    const saved = sessionStorage.getItem(cacheKey);
+    if (saved) {
+      const parsed = JSON.parse(saved);
+      if (Array.isArray(parsed) && parsed.length) {
+        state.quranCache.set(page, parsed);
+        return parsed;
+      }
+    }
+  } catch { /* التخزين المحلي اختياري */ }
+
+  const response = await fetch(`https://api.alquran.cloud/v1/page/${page}/quran-uthmani`, {
+    headers: { Accept: 'application/json' },
+    cache: 'force-cache'
+  });
+  if (!response.ok) throw new Error('QURAN_API');
+  const payload = await response.json();
+  const ayahs = payload?.data?.ayahs;
+  if (!Array.isArray(ayahs) || !ayahs.length) throw new Error('QURAN_API');
+
+  state.quranCache.set(page, ayahs);
+  try { sessionStorage.setItem(cacheKey, JSON.stringify(ayahs)); } catch { /* قد تكون مساحة التخزين ممتلئة */ }
+  return ayahs;
+}
+
+async function loadQuranPage(page) {
+  const safePage = Math.max(1, Math.min(604, Number(page) || 1));
+  const requestId = ++state.quranRequestId;
+  state.readerPage = safePage;
+  $('readerPageTitle').textContent = `الصفحة ${safePage} من 604`;
+  $('mushafPageNo').textContent = `الصفحة ${safePage}`;
+  $('quranText').innerHTML = '<div class="empty-state">جارٍ تحميل الصفحة...</div>';
+  $('prevPage').disabled = safePage === 1;
+  $('nextPage').disabled = safePage === 604;
+
+  try {
+    const ayahs = await fetchQuranPageData(safePage);
+    if (requestId !== state.quranRequestId) return;
+    const fragment = document.createDocumentFragment();
+    ayahs.forEach((ayah) => {
+      const span = document.createElement('span');
+      span.className = 'quran-ayah';
+      span.append(document.createTextNode(`${ayah.text} `));
+      const number = document.createElement('span');
+      number.className = 'ayah-number';
+      number.textContent = `۞ ${ayah.numberInSurah} `;
+      span.append(number);
+      fragment.append(span);
+    });
+    $('quranText').replaceChildren(fragment);
+
+    // جهّز الصفحة التالية في الخلفية لتظهر أسرع عند التنقل.
+    if (safePage < 604 && !state.quranCache.has(safePage + 1)) {
+      fetchQuranPageData(safePage + 1).catch(() => {});
+    }
+  } catch {
+    if (requestId === state.quranRequestId) {
+      $('quranText').textContent = 'تعذر تحميل الصفحة حالياً. تحقق من الاتصال بالإنترنت ثم أعد المحاولة.';
+    }
+  }
+}
+
+function openReader() {
+  const member = state.members.find((item) => item.uid === state.user?.uid);
+  state.readerPage = Math.min(604, Math.max(Number(member?.startPage || 1), Number(member?.lastPageRead || 0) + 1));
+  showMainSection('readerSection');
+  $('readerSection').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  loadQuranPage(state.readerPage);
+}
+
+function showLegal(type) {
+  const privacy = type === 'privacy';
+  $('legalTitle').textContent = privacy ? 'سياسة الخصوصية' : 'شروط الاستخدام';
+  $('legalContent').innerHTML = privacy
+    ? `<h3>البيانات التي نحفظها</h3><p>نحفظ البريد الإلكتروني لدى Firebase Authentication، ونحفظ الاسم الظاهر واسم المستخدم وإعدادات القراءة ومعرّف الرفقة وسجل إنجاز الصفحات في قاعدة Firestore. لا نحفظ كلمة المرور داخل قاعدة البيانات؛ تتولى خدمة Firebase Authentication إدارتها.</p><h3>كيف نستخدم البيانات</h3><p>تُستخدم البيانات لتسجيل الدخول، وربطك بالرفقة، وإظهار الاسم الظاهر وحالة إنجاز الورد لأعضاء مجموعتك. لا تعرض المنصة البريد الإلكتروني أو كلمة المرور لأعضاء الرفقة.</p><h3>خدمات خارجية</h3><p>تستخدم المنصة خدمات Firebase من Google للمصادقة وقاعدة البيانات والاستضافة عند تفعيلها، كما تطلب نص صفحات القرآن من api.alquran.cloud. تخضع هذه الخدمات لسياسات مزوديها.</p><h3>حذف الحساب</h3><p>هذه النسخة لا توفر بعد أداة حذف ذاتية كاملة للحساب وسجلّه. لا تستخدم بيانات شخصية حساسة، وتواصل مع مسؤول المنصة لطلب حذف الحساب قبل الإطلاق العام.</p><h3>التواصل</h3><p>ستُضاف قناة دعم رسمية قبل الإطلاق العام.</p>`
+    : `<h3>الاستخدام المسؤول</h3><p>تُستخدم المنصة لتشجيع القراءة الجماعية للقرآن. اختر اسماً محترماً، ولا تنشر معلومات شخصية أو روابط إعلانية أو محتوى مسيئاً.</p><h3>الحساب</h3><p>أنت مسؤول عن الحفاظ على سرية كلمة المرور. لا تشارك بيانات الدخول مع الآخرين. رمز الدعوة مخصص لمن ترغب في دعوتهم إلى الرفقة الخاصة.</p><h3>الإنجاز اليومي</h3><p>تسجيل إتمام الورد يعتمد على إدخال المستخدم، وهو وسيلة للتشجيع والمتابعة وليس إثباتاً خارجياً للقراءة.</p><h3>توفر الخدمة</h3><p>هذه نسخة أولية قيد التطوير. قد تتوقف بعض الميزات أو تتغير أثناء الاختبار، ولا تُعد الإحصاءات أو التذكيرات الموعودة متاحة ما لم تظهر فعلياً داخل التطبيق.</p><h3>احترام الآخرين</h3><p>لا تستخدم المنصة للإساءة أو المضايقة أو جمع معلومات عن الآخرين. يمكن للمسؤول تعطيل الحسابات المخالفة.</p>`;
+  $('legalModal').classList.remove('hidden');
+}
+
+onAuthStateChanged(auth, async (user) => {
+  state.authListenerReady = true;
+  state.user = user;
+  cleanupGroupListeners();
+  // أثناء التسجيل نتجنب قراءة ملف المستخدم قبل اكتمال كتابته في Firestore.
+  // registerAccount يتولى فتح لوحة الحساب بعد نجاح المعاملة مباشرة.
+  if (user && state.registrationInProgress) return;
+  if (!user) {
+    state.profile = null;
+    state.group = null;
+    state.groupId = null;
+    $('signOutBtn').classList.add('hidden');
+    $('headerLogin').classList.remove('hidden');
+    $('headerJoin').classList.remove('hidden');
+    $('dashboardSection').classList.add('hidden');
+    $('readerSection').classList.add('hidden');
+    $('joinSection').classList.remove('hidden');
+    return;
+  }
+  $('signOutBtn').classList.remove('hidden');
+  $('headerLogin').classList.add('hidden');
+  $('headerJoin').classList.add('hidden');
+  try {
+    const profile = await loadProfile(user);
+    if (!profile) {
+      showMessage($('authMessage'), 'الحساب موجود لكن ملف المستخدم غير مكتمل. سجّل الخروج ثم تواصل مع مسؤول المنصة.', true);
+      return;
+    }
+    state.profile = profile;
+    if (profile.activeGroupId) {
+      watchActiveGroup(profile.activeGroupId);
+    } else {
+      showMainSection('dashboardSection');
+      $('welcomeName').textContent = profile.name || 'قارئ القرآن';
+      $('memberList').innerHTML = '<div class="empty-state">لم تنضم إلى رفقة بعد. أنشئ رفقة أو سجّل الدخول من جديد بعد تهيئة حسابك.</div>';
+      $('privatePanel').classList.remove('hidden');
+    }
+  } catch (error) {
+    showMessage($('authMessage'), translateError(error), true);
+  }
+});
+
+$('registerForm').addEventListener('submit', registerAccount);
+$('loginForm').addEventListener('submit', loginAccount);
+document.querySelectorAll('[data-auth-tab]').forEach((button) => button.addEventListener('click', () => showAuthTab(button.dataset.authTab)));
+$('headerLogin').addEventListener('click', () => scrollToAuth('login'));
+$('headerJoin').addEventListener('click', () => scrollToAuth('register'));
+$('heroJoin').addEventListener('click', () => scrollToAuth('register'));
+$('signOutBtn').addEventListener('click', async () => {
+  cleanupGroupListeners();
+  await signOut(auth);
+  showMainSection('joinSection');
+  toast('تم تسجيل الخروج.');
+});
+$('resetPassword').addEventListener('click', async () => {
+  const email = $('loginEmail').value.trim();
+  if (!email) {
+    showMessage($('authMessage'), 'أدخل بريدك الإلكتروني أولاً.', true);
+    return;
+  }
+  try {
+    await sendPasswordResetEmail(auth, email);
+    showMessage($('authMessage'), 'إذا كان البريد مسجلاً، ستصلك رسالة لإعادة تعيين كلمة المرور.');
+  } catch (error) {
+    showMessage($('authMessage'), translateError(error), true);
+  }
+});
+$('createPrivateBtn').addEventListener('click', async () => {
+  if (!state.user || !state.profile) return scrollToAuth('login');
+  const button = $('createPrivateBtn');
+  setButtonLoading(button, true, 'جارٍ إنشاء الرفقة...');
+  try {
+    const groupId = await createGroup(state.profile, true);
+    watchActiveGroup(groupId);
+    toast(`تم إنشاء الرفقة الخاصة. رمز الدعوة: ${state.profile.activeInviteCode}`);
+  } catch (error) {
+    showMessage($('dashboardMessage'), translateError(error), true);
+  } finally {
+    setButtonLoading(button, false);
+  }
+});
+$('joinPrivateBtn').addEventListener('click', joinPrivateGroup);
+$('copyInvite').addEventListener('click', async () => {
+  const code = state.profile?.activeInviteCode;
+  if (!code) return;
+  try {
+    await navigator.clipboard.writeText(code);
+    toast(`تم نسخ رمز الدعوة: ${code}`);
+  } catch {
+    toast(`رمز الدعوة: ${code}`);
+  }
+});
+$('openReader').addEventListener('click', openReader);
+$('closeReader').addEventListener('click', () => {
+  showMainSection('dashboardSection');
+  $('dashboardSection').scrollIntoView({ behavior: 'smooth', block: 'start' });
+});
+$('prevPage').addEventListener('click', () => loadQuranPage(state.readerPage - 1));
+$('nextPage').addEventListener('click', () => loadQuranPage(state.readerPage + 1));
+$('markTodayDone').addEventListener('click', async () => {
+  try { await completeDailyReading(); } catch (error) { showMessage($('dashboardMessage'), translateError(error), true); }
+});
+$('readerDone').addEventListener('click', async () => {
+  try {
+    await completeDailyReading();
+    showMainSection('dashboardSection');
+    $('dashboardSection').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  } catch (error) {
+    showMessage($('readerMessage'), translateError(error), true);
+  }
+});
+document.querySelectorAll('[data-legal]').forEach((link) => link.addEventListener('click', (event) => {
+  event.preventDefault();
+  showLegal(link.dataset.legal);
+}));
+$('closeLegal').addEventListener('click', () => $('legalModal').classList.add('hidden'));
+$('legalModal').addEventListener('click', (event) => {
+  if (event.target === $('legalModal')) $('legalModal').classList.add('hidden');
+});
+$('yearNow').textContent = new Date().getFullYear();
+
+  </script>
+</head>
+<body>
+  <div class="site-shell">
+    <header class="topbar">
+      <a class="brand" href="#home" aria-label="صُحبة - الرئيسية">
+        <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M24 5.5 39.8 14.7v18.6L24 42.5 8.2 33.3V14.7L24 5.5Z"/><path d="M15.5 24c4.1-8.7 12.9-8.7 17 0-4.1 8.7-12.9 8.7-17 0Z"/><path d="M24 17.8v12.4M17.8 24h12.4"/></svg></span>
+        <span><strong>صُحبة</strong><small>وردٌ يجمعنا</small></span>
+      </a>
+      <nav class="desktop-nav" aria-label="التنقل الرئيسي">
+        <a href="#how">كيف تعمل</a>
+        <a href="#about">عن صُحبة</a>
+      </nav>
+      <div class="header-actions">
+        <button class="btn btn-quiet" id="headerLogin">تسجيل الدخول</button>
+        <button class="btn btn-primary" id="headerJoin">ابدأ الآن</button>
+        <button class="icon-button hidden" id="signOutBtn" aria-label="تسجيل الخروج" title="تسجيل الخروج"><svg viewBox="0 0 24 24"><path d="M10 17l5-5-5-5M15 12H3M12 3h6a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-6"/></svg></button>
+      </div>
+    </header>
+
+    <main id="appMain">
+      <section class="hero" id="home">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="eyebrow-line"></span> صحبةٌ على طريق القرآن</div>
+          <h1>لا تجعل وردك<br><span>وحيداً.</span></h1>
+          <p class="hero-lead">اختر مقدار قراءتك اليومي، وانضم إلى رفقة من سبعة قرّاء يتشاركون الورد ويشجع بعضهم بعضاً على الاستمرار.</p>
+          <div class="hero-actions">
+            <button class="btn btn-primary btn-large" id="heroJoin">انضم إلى رفقة <svg viewBox="0 0 24 24"><path d="M19 12H5m0 0 7-7m-7 7 7 7"/></svg></button>
+            <a class="text-link" href="#how">اكتشف طريقة العمل <span>←</span></a>
+          </div>
+          <div class="hero-note"><span class="note-dot"></span> مساحة هادئة للقراءة والالتزام اليومي</div>
+        </div>
+        <div class="hero-art" aria-label="تصوير توضيحي لرفقة من القراء">
+          <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div>
+          <div class="art-card">
+            <div class="art-card-top"><span>مثال توضيحي لرفقة</span><span class="live-pill"><i></i> مستمرة</span></div>
+            <div class="art-progress"><div class="progress-ring"><svg viewBox="0 0 120 120"><circle class="ring-bg" cx="60" cy="60" r="49"/><circle class="ring-value" cx="60" cy="60" r="49"/></svg><div><strong>٥ / ٧</strong><small>أتمّوا الورد</small></div></div></div>
+            <div class="art-members"><span class="avatar">م</span><span class="avatar">س</span><span class="avatar">ع</span><span class="avatar">ن</span><span class="avatar">ر</span><span class="avatar muted-avatar">+٢</span></div>
+            <div class="art-card-foot"><span>ورد اليوم</span><strong>صفحتان</strong></div>
+          </div>
+          <div class="floating-note"><span class="floating-icon"><svg viewBox="0 0 24 24"><path d="M12 3v18M5 9l7-6 7 6M5 15l7 6 7-6"/></svg></span><span><b>خطوة كل يوم</b><small>والاستمرار يصنع الفرق</small></span></div>
+          <div class="art-seal">اقرأ<br>وتدبّر</div>
+        </div>
+      </section>
+
+      <section class="join-section" id="joinSection">
+        <div class="section-heading">
+          <span class="eyebrow">ابدأ رحلتك</span>
+          <h2>رفقتك تبدأ من هنا</h2>
+          <p>حدّد ما يناسب وقتك، وسنبحث لك عن رفقة مناسبة.</p>
+        </div>
+        <div class="auth-card" id="authCard">
+          <div class="auth-tabs"><button class="auth-tab active" data-auth-tab="register">إنشاء حساب والانضمام</button><button class="auth-tab" data-auth-tab="login">لدي حساب</button></div>
+          <form id="registerForm" class="form-grid">
+            <div class="field"><label for="displayName">الاسم الظاهر</label><input id="displayName" name="displayName" autocomplete="name" minlength="2" maxlength="48" placeholder="الاسم الذي سيظهر للرفقة" required></div>
+            <div class="field"><label for="username">اسم المستخدم</label><input id="username" name="username" autocomplete="username" minlength="3" maxlength="20" pattern="[A-Za-z0-9_]{3,20}" placeholder="مثال: mohammed_1" required><small>أحرف إنجليزية وأرقام وشرطة سفلية فقط.</small></div>
+            <div class="field"><label for="email">البريد الإلكتروني</label><input id="email" name="email" type="email" autocomplete="email" placeholder="name@example.com" required></div>
+            <div class="field"><label for="password">كلمة المرور</label><input id="password" name="password" type="password" autocomplete="new-password" minlength="8" placeholder="ثمانية أحرف على الأقل" required></div>
+            <div class="field"><label>نوع الرفقة</label><div class="choice-row"><label class="choice"><input type="radio" name="gender" value="men" checked><span>رجال</span></label><label class="choice"><input type="radio" name="gender" value="women"><span>نساء</span></label></div></div>
+            <div class="field"><label for="dailyPages">مقدار القراءة اليومي</label><select id="dailyPages" name="dailyPages"><option value="1">وجه واحد</option><option value="2" selected>وجهان</option><option value="3">ثلاثة أوجه</option><option value="5">خمسة أوجه</option><option value="10">عشرة أوجه</option><option value="20">عشرون وجهاً</option></select></div>
+            <div class="field"><label for="startPage">نقطة البداية (رقم الصفحة)</label><input id="startPage" name="startPage" type="number" min="1" max="604" value="1" required><small>مصحف المدينة: من الصفحة 1 إلى 604.</small></div>
+            <div class="form-footer"><button class="btn btn-primary btn-large full-width" type="submit" id="registerSubmit">أنشئ حسابي وابحث عن رفقة <svg viewBox="0 0 24 24"><path d="M19 12H5m0 0 7-7m-7 7 7 7"/></svg></button><p class="fine-print">بإنشاء الحساب، أنت توافق على <a href="#terms" data-legal="terms">الشروط</a> و<a href="#privacy" data-legal="privacy">سياسة الخصوصية</a>.</p></div>
+          </form>
+          <form id="loginForm" class="form-grid hidden">
+            <div class="field full-span"><label for="loginEmail">البريد الإلكتروني</label><input id="loginEmail" type="email" autocomplete="email" required></div>
+            <div class="field full-span"><label for="loginPassword">كلمة المرور</label><input id="loginPassword" type="password" autocomplete="current-password" required></div>
+            <div class="form-footer"><button class="btn btn-primary btn-large full-width" type="submit" id="loginSubmit">تسجيل الدخول</button><button class="btn btn-quiet full-width" type="button" id="resetPassword">نسيت كلمة المرور؟</button></div>
+          </form>
+          <div id="authMessage" class="message hidden" role="status" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <section class="dashboard-section hidden" id="dashboardSection">
+        <div class="dashboard-head"><div><span class="eyebrow">مساحتك</span><h2>أهلاً، <span id="welcomeName">قارئ القرآن</span></h2><p>هذه مساحة رفيقتك لمتابعة ورد اليوم.</p></div><button class="btn btn-outline" id="createPrivateBtn">إنشاء رفقة خاصة</button></div>
+        <div class="dashboard-grid">
+          <article class="panel main-panel">
+            <div class="panel-top"><div><span class="eyebrow">رفقتك الحالية</span><h3 id="groupName">رفقة الورد</h3></div><span class="status-pill" id="groupStatus">قيد الاكتمال</span></div>
+            <div class="group-meta"><span id="groupAmount">وجهان يومياً</span><span id="groupMemberCount">1 من 7 أعضاء</span><button class="inline-action hidden" id="copyInvite">نسخ رابط الدعوة</button></div>
+            <div class="member-list" id="memberList"><div class="empty-state">جارٍ تحميل أعضاء الرفقة...</div></div>
+            <div class="group-progress"><div class="progress-label"><span>إنجاز الورد اليوم</span><strong id="groupDoneCount">0 / 7</strong></div><div class="progress-track"><span id="groupProgressBar"></span></div></div>
+          </article>
+          <article class="panel reading-panel">
+            <span class="eyebrow">وردك اليومي</span><h3 id="readingAmountTitle">وجهان من القرآن</h3><p id="readingStatus">ابدأ القراءة من حيث وصلت.</p>
+            <div class="reading-number"><strong id="readingPage">1</strong><span>رقم الصفحة</span></div>
+            <button class="btn btn-primary btn-large full-width" id="openReader">افتح المصحف</button>
+            <button class="btn btn-soft full-width" id="markTodayDone">أتممت ورد اليوم</button>
+            <p class="small-note" id="personalProgress">آخر صفحة مسجلة: 0</p>
+          </article>
+        </div>
+        <div class="panel private-panel hidden" id="privatePanel"><div><span class="eyebrow">رفقة خاصة</span><h3>أنشئ مساحة تجمع من تختارهم</h3><p>ستحصل على رمز دعوة خاص يمكنك مشاركته مع أفراد رفقة تثق بهم.</p></div><div class="private-actions"><input id="inviteCodeInput" placeholder="أدخل رمز الدعوة" maxlength="16" autocomplete="off"><button class="btn btn-outline" id="joinPrivateBtn">انضم بالرمز</button></div></div>
+        <div class="message hidden" id="dashboardMessage" role="status" aria-live="polite"></div>
+      </section>
+
+      <section class="reader-section hidden" id="readerSection">
+        <div class="reader-toolbar"><button class="btn btn-quiet" id="closeReader">العودة إلى الرفقة</button><div><span class="eyebrow">المصحف الشريف</span><strong id="readerPageTitle">الصفحة 1 من 604</strong></div><div class="reader-nav"><button class="icon-button" id="prevPage" aria-label="الصفحة السابقة"><svg viewBox="0 0 24 24"><path d="m15 18-6-6 6-6"/></svg></button><button class="icon-button" id="nextPage" aria-label="الصفحة التالية"><svg viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></svg></button></div></div>
+        <article class="mushaf-page"><div class="mushaf-topline"><span>صُحبة</span><span id="mushafPageNo">الصفحة 1</span></div><div id="quranText" class="quran-text"><div class="empty-state">جارٍ تحميل الصفحة...</div></div><div class="mushaf-bottomline">صدق الله العظيم</div></article>
+        <div class="reader-bottom"><p>بعد إتمام مقدار وردك، سجّل إنجازك ليظهر لأعضاء رفقتك.</p><button class="btn btn-primary btn-large" id="readerDone">سجّلت إتمام الورد</button></div>
+        <div id="readerMessage" class="message hidden" role="status" aria-live="polite"></div>
+      </section>
+
+      <section class="how-section" id="how">
+        <div class="section-heading"><span class="eyebrow">خطوات بسيطة</span><h2>كيف تمضي رحلتك مع الرفقة؟</h2><p>نرتّب لك المساحة، ويبقى الأثر في المواظبة.</p></div>
+        <div class="steps-grid">
+          <article class="step-card"><span class="step-index">01</span><div class="step-icon"><svg viewBox="0 0 24 24"><path d="M5 4.5A2.5 2.5 0 0 1 7.5 2H20v17H7.5A2.5 2.5 0 0 0 5 21.5v-17Z"/><path d="M5 17.5A2.5 2.5 0 0 1 7.5 15H20M9 6h7M9 9h7"/></svg></div><h3>اختر وردك</h3><p>حدّد عدد الصفحات الذي تستطيع المواظبة عليه يومياً.</p></article>
+          <article class="step-card"><span class="step-index">02</span><div class="step-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></div><h3>تعرّف إلى رفيقتك</h3><p>انضم إلى مجموعة تشاركك مقدار الورد نفسه.</p></article>
+          <article class="step-card"><span class="step-index">03</span><div class="step-icon"><svg viewBox="0 0 24 24"><path d="M5 3h14v18H5zM8 7h8M8 11h8M8 15h5"/></svg></div><h3>اقرأ بهدوء</h3><p>افتح صفحات المصحف وتابع من نقطة بدايتك.</p></article>
+          <article class="step-card"><span class="step-index">04</span><div class="step-icon"><svg viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/><circle cx="12" cy="12" r="9"/></svg></div><h3>سجّل إنجازك</h3><p>أخبر رفقتك أنك أتممت ورد اليوم.</p></article>
+        </div>
+      </section>
+
+      <section class="quote-section" id="about"><div class="quote-mark">“</div><p>خير الأعمال أدومها وإن قلّ.</p><span>ابدأ بما تستطيع، واجعل الاستمرار رفيقك.</span></section>
+    </main>
+
+    <footer class="footer"><a class="brand footer-brand" href="#home"><span class="brand-mark"><svg viewBox="0 0 48 48"><path d="M24 5.5 39.8 14.7v18.6L24 42.5 8.2 33.3V14.7L24 5.5Z"/><path d="M15.5 24c4.1-8.7 12.9-8.7 17 0-4.1 8.7-12.9 8.7-17 0Z"/><path d="M24 17.8v12.4M17.8 24h12.4"/></svg></span><span><strong>صُحبة</strong><small>وردٌ يجمعنا</small></span></a><div class="footer-links"><a href="#privacy" data-legal="privacy">الخصوصية</a><a href="#terms" data-legal="terms">الشروط</a><a href="#about">عن المنصة</a></div><small class="copyright">© <span id="yearNow"></span> صُحبة. منصة مستقلة للقراءة الجماعية.</small></footer>
+  </div>
+
+  <div class="modal-backdrop hidden" id="legalModal" role="dialog" aria-modal="true" aria-labelledby="legalTitle"><div class="modal-card"><button class="modal-close" id="closeLegal" aria-label="إغلاق">×</button><h2 id="legalTitle">سياسة الخصوصية</h2><div id="legalContent" class="legal-content"></div></div></div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
